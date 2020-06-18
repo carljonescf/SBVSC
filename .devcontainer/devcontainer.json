@@ -24,11 +24,11 @@
 	],
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
-	 "forwardPorts": [],
+	 "forwardPorts": [8080,35729],
 
 	// Use 'appPort' to make a list of ports to forward when the app is running
 
-	"appPort": [8080, 35729],
+	//"appPort": [8080, 35729],
 
 	// Use 'postCreateCommand' to run commands after the container is created.
 
