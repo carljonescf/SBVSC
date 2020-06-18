@@ -19,9 +19,9 @@
 		"ms-azuretools.vscode-docker",
 		"tht13.html-preview-vscode",
 		"GabrielBB.vscode-lombok"
-	],
-	 "forwardPorts": [8080,35729],
-	 "appPort": [8080, 35729],
-	 "postCreateCommand": "java -version",
-	 "remoteUser": "vscode"
+	]//,
+	 //"forwardPorts": [8080,35729],
+	 //"appPort": [8080, 35729],
+	 //"postCreateCommand": "java -version",
+	 //"remoteUser": "vscode"
 }
