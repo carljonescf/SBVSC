@@ -48,7 +48,7 @@ RUN apt-get update \
 #-------------------Uncomment the following steps to install Gradle CLI Tools---------------------------------
  ENV GRADLE_HOME /opt/gradle
  ENV GRADLE_VERSION 6.5
- ARG GRADLE_DOWNLOAD_SHA256=7bdbad1e4f54f13c8a78abc00c26d44dd8709d4aedb704d913fb1bb78ac025dc
+ ARG GRADLE_DOWNLOAD_SHA256=23e7d37e9bb4f8dabb8a3ea7fdee9dd0428b9b1a71d298aefd65b11dccea220f
  RUN curl -sSL --output gradle.zip "https://services.gradle.org/distributions/gradle-${GRADLE_VERSION}-bin.zip" \
      && export DEBIAN_FRONTEND=noninteractive \
      && echo "${GRADLE_DOWNLOAD_SHA256} *gradle.zip" | sha256sum --check - \
