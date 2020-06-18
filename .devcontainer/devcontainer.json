@@ -9,15 +9,11 @@
 	
 	"extensions": [
 		"vscjava.vscode-java-pack",
-		"vscjava.vscode-java-test",
-		"vscjava.vscode-java-debug",
-		"redhat.java",
 		"shengchen.vscode-checkstyle",
 		"Pivotal.vscode-boot-dev-pack",
 		"Pivotal.vscode-spring-boot",
-		"naco-siren.gradle-language",
-		"ms-azuretools.vscode-docker",
 		"tht13.html-preview-vscode",
+		"richardwillis.vscode-gradle",
 		"GabrielBB.vscode-lombok"
 	],
 	 "forwardPorts": [8080,35729],
